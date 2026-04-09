@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4FF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="alfa"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#1A73E8"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="board"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#333333"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bangla | English | Banglish AI | Voice"
+            android:textSize="13sp"
+            android:textColor="#888888"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:text="Setup Guide:\n\n1. Tap Enable Keyboard below\n2. Find Alfa Board and turn ON\n3. Tap Select Alfa Board\n4. Open Settings and add Groq API key\n\nGet FREE key: console.groq.com\n\nSwipe left/right on spacebar to switch languages"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#444444"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnEnable"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Step 1: Enable Keyboard"
+            android:backgroundTint="#1A73E8"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Step 2: Select Alfa Board"
+            android:backgroundTint="#34A853"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Settings"
+            android:backgroundTint="#EA4335"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
